@@ -33,7 +33,6 @@ main{
     padding: 2px;
     height: 34%;
     border-radius: 20px;
-    width:100%;
 }
 #contact-info{
     display:flex;
@@ -103,4 +102,9 @@ h3{
 }
 h4{
     margin:15px;
+}
+#detailed-contact{
+    padding:5%;
+    background-color:rgb(221, 219, 219);
+    border-radius: 10%;
 }
