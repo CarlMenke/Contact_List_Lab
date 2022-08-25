@@ -2,6 +2,7 @@
 .App{
     text-align:center;
     position:relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 main{
     display:flex;
@@ -29,7 +30,7 @@ main{
     justify-content: space-between;
     align-items: center;
     flex-basis:25%;
-    margin: 10px;
+    margin: 20px;
     padding: 2px;
     height: 34%;
     border-radius: 20px;
@@ -44,7 +45,7 @@ main{
 img{
     border: 1px solid rgb(36, 36, 36);
     border-radius:100px;
-    margin:20px;
+    margin:10px;
 }
 #search-bar{
     position:relative;
@@ -98,15 +99,15 @@ button{
     align-items:center;
 }
 h3{
-    margin:20px;
+    margin:5px;
 }
 h4{
-    margin:15px;
+    margin:7px;
 }
 #detailed-contact{
     padding:5%;
     background-color: rgb(236, 236, 236);
-    border-radius: 10%;
+    border-radius: 20px;
 }
 #personal-information{
     background-color:rgb(221, 219, 219);
@@ -114,5 +115,5 @@ h4{
     flex-flow: column wrap;
     margin:10px;
     padding:10px;
-    border-radius: 10%;
+    border-radius: 20px;
 }

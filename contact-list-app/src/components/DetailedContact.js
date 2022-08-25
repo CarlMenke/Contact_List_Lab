@@ -5,9 +5,9 @@ const DetailedContact = (props) => {
 
     return (
         <div id ='detailed-contact' key = {props.key}>
+            <h1 >{props.name}</h1>
             <img  src = {props.picture} alt = 'profle pic'></img>
             <div id = 'personal-information'>
-                <div>Name: {props.name}</div>
                 <div>Cell: {props.mobile}</div>
                 <div>Phone: {props.phone}</div>
                 <div>Date Of Birth: {props.dob}</div>
